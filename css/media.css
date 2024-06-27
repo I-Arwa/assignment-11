@@ -1,0 +1,35 @@
+/*---- mediam --- */
+@media all and (max-width:992px){
+    .search{
+        flex-direction: column;
+    }
+    .btn1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .search .input{
+        width: 100%;
+    }
+    header{
+        padding-top: 80px;
+    }
+    
+    .search{
+        padding-top: 80px;
+    }
+    .navbar-nav .nav-link,.navbar-nav .nav-link.active{
+        border: transparent;
+    }
+    .navbar-nav .nav-link:hover{
+        background-color: transparent;
+        border: transparent;
+    }
+    .footer-input{
+        flex-direction: column;
+    
+       }
+ .footer-input input{
+    width: 100%;
+ }
+}

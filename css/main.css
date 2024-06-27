@@ -1,0 +1,213 @@
+
+.navbar{
+  box-shadow: 0px 0px 4px 0px rgb(119, 154, 207);
+}
+
+
+.navbar-brand{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 25px;
+  background-image: linear-gradient(
+    125deg,
+    hsl(240deg 81% 33%) 0%,
+    hsl(243deg 81% 34%) 1%,
+    hsl(244deg 79% 36%) 3%,
+    hsl(247deg 79% 37%) 7%,
+    hsl(249deg 78% 39%) 12%,
+    hsl(251deg 78% 41%) 21%,
+    hsl(253deg 77% 42%) 34%,
+    hsl(255deg 76% 44%) 55%,
+    hsl(258deg 76% 45%) 83%,
+    hsl(260deg 75% 47%) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  }
+
+  .navbar img {
+    width: 64px;
+  }
+
+  .navbar-toggler{
+    background-image: linear-gradient(
+    125deg,
+    hsl(240deg 81% 33%) 0%,
+    hsl(243deg 81% 34%) 1%,
+    hsl(244deg 79% 36%) 3%,
+    hsl(247deg 79% 37%) 7%,
+    hsl(249deg 78% 39%) 12%,
+    hsl(251deg 78% 41%) 21%,
+    hsl(253deg 77% 42%) 34%,
+    hsl(255deg 76% 44%) 55%,
+    hsl(258deg 76% 45%) 83%,
+    hsl(260deg 75% 47%) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  }
+  .navbar-toggler:focus {
+    box-shadow:none;
+  }
+
+
+  .navbar-nav .nav-link.active{
+    color: rgb(4, 55, 156);
+    border: 2px solid rgb(119, 154, 207);
+    transition: all .5s;
+    }
+    .navbar-nav .nav-link{
+      margin-right: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 50px;
+      color: rgb(4, 55, 156);
+      border: 2px solid transparent;
+      font-family: "Acme", sans-serif;
+      font-weight: 400;
+      font-size: 19px;
+     transition: all .5s;
+    }
+    .navbar-nav .nav-link:hover{
+      background-color: rgb(119, 154, 207);
+    border: 2px solid rgb(119, 154, 207);
+    }
+
+
+
+    header{
+      min-height: 100vh;
+        padding: 70px 0px;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.input{
+  width: 50%;
+}
+
+
+.form-control{
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid rgb(4, 55, 156);
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+.form-control:focus{
+  border: 1px solid rgb(4, 55, 156);
+  color: rgb(56, 90, 137);
+  background-color:rgba(119, 154, 207, 0.278);
+  box-shadow: none;
+}
+.msg{
+  color: rgb(156, 4, 4);
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  padding-top: 10px;
+ 
+}
+.button{
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  background-color: rgb(119, 154, 207);
+  color: rgb(4, 55, 156);
+  border: none;
+}
+
+.items{
+  border-radius: 10px;
+  background-image: url(../img/clouds-blue-clear-sky.jpg);
+  background-position: center;
+  background-size: cover;
+  }
+  .date{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: rgb(4, 55, 156);
+  }
+  .name{
+    font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 19px;
+    color: rgb(14, 64, 98);
+  }
+
+  .text{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: rgb(4, 55, 156);
+  }
+
+  .temp{
+    font-family: "Libre Baskerville", serif;
+font-weight: 700;
+font-size: 35px;
+background-image: linear-gradient(
+  125deg,
+  hsl(240deg 81% 33%) 0%,
+  hsl(243deg 81% 34%) 1%,
+  hsl(244deg 79% 36%) 3%,
+  hsl(247deg 79% 37%) 7%,
+  hsl(249deg 78% 39%) 12%,
+  hsl(251deg 78% 41%) 21%,
+  hsl(253deg 77% 42%) 34%,
+  hsl(255deg 76% 44%) 55%,
+  hsl(258deg 76% 45%) 83%,
+  hsl(260deg 75% 47%) 100%
+);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+  }
+
+  .icons span{
+    font-size: 20px;
+    color: rgb(7, 0, 150);
+  }
+
+  .icons span i{
+    font-size: 25px;
+    color: rgb(36, 64, 247);
+  }
+
+
+
+  footer{
+    padding: 50px 0px;
+    box-shadow: 0px 0px 4px 0px rgb(119, 154, 207);
+  }
+
+ .list1 li{
+  width:50px;
+  height:50px;
+  line-height:50px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgb(119, 154, 207);
+  font-size: 20px;
+  color: rgb(20, 88, 191);
+  transition: all .5s;
+ }
+
+ .list1 li:hover{
+  color: blue;
+ }
+
+ footer p{
+  color: rgb(20, 88, 191);
+ }
+ .footer-input input{
+  width: 50%;
+ }
